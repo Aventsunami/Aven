@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif; /* Sets the default font for the website */
+  margin: 20px; /* Adds some margin around the body content */
+  line-height: 1.5; /* Adjusts line spacing for better readability */
+}
+
+h1 {
+  text-align: center; /* Centers the website title */
+  font-size: 2em; /* Sets the font size of the heading to twice the default font size */
+  margin-bottom: 1em; /* Adds some space after the heading */
+}
+
+p {
+  font-size: 1em; /* Sets the font size for paragraphs */
+}
