@@ -6,54 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
+      body {
+            font-family: Noto-sans, sans-serif;
+            background-color: #20232a;
+            color: #61dafb;
             margin: 0;
             padding: 0;
-            background-color: #eef2f3;
-            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
+
         header {
-            background-color: #4A90E2;
-            color: white;
-            padding: 40px 20px;
+            background-color: #282c34;
+            padding: 15px;
             text-align: center;
-            border-bottom: 5px solid #3a7bd5;
+            font-size: 1.5rem;
         }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+
         nav {
-            margin: 20px 0;
+            background-color: #20232a;
             text-align: center;
+            padding: 10px 0;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
+
         nav a {
-            margin: 0 20px;
+            color: #61dafb;
             text-decoration: none;
-            color: #4A90E2;
-            font-weight: bold;
-            transition: color 0.3s;
+            padding: 10px 15px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
         }
+
         nav a:hover {
-            color: #3a7bd5;
-        }
-        section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #4A90E2;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            background-color: #282c34;
         }
         .social-media a {
             margin: 0 15px;
