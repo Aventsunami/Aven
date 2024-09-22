@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="C:\Users\shaur\Desktop\Downloads\aven.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Log</title>
+    <title>Home Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 20px;
-        }
-        .book-log {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
-        .book-item {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-        .book-item:hover {
-            transform: scale(1.05);
-        }
-        .book-thumbnail img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .book-info {
-            padding: 15px;
-        }
-        .book-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 0;
-        }
-        .book-category {
-            font-size: 14px;
-            color: #555;
-            margin: 5px 0;
-        }
-        .book-title a {
-            text-decoration: none;
+            padding: 0;
+            background-color: #eef2f3;
             color: #333;
         }
-        .book-title a:hover {
-            color: #007bff;
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #3a7bd5;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #4A90E2;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3a7bd5;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4A90E2;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-media a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #3a7bd5;
         }
     </style>
 </head>
 <body>
-
-    <h1>My Book Log</h1>
-    <div class="book-log">
-        <!-- Book Item 1 -->
-        <div class="book-item">
-            <div class="book-thumbnail">
-                <a href="https://link-to-book1.com" target="_blank">
-                    <img src="https://link-to-thumbnail1.com/image1.jpg" alt="Book 1">
-                </a>
-            </div>
-            <div class="book-info">
-                <p class="book-title"><a href="https://link-to-book1.com" target="_blank">Book Title 1</a></p>
-                <p class="book-category">Category: Fiction</p>
-            </div>
+    <header>
+        <h1>Aven</h1>
+        <p>I enjoy creating things people use that incorporate novel technologies and interfaces.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="endeavour.html">Past Endeavours</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul> 
+    </nav>
+    <section>
+        <h2>Welcome to My World</h2>
+        <p>Explore my projects and past work, and feel free to connect with me!</p>
+    </section>
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com/based" target="_blank">Twitter</a>
+            <a href="https://air.chat/Shaurya" target="_blank">Airchat</a>
+            <a href="https://instagram.com/reliable_pal" target="_blank">Instagram</a>
         </div>
-
-        <!-- Book Item 2 -->
-        <div class="book-item">
-            <div class="book-thumbnail">
-                <a href="https://link-to-book2.com" target="_blank">
-                    <img src="https://link-to-thumbnail2.com/image2.jpg" alt="Book 2">
-                </a>
-            </div>
-            <div class="book-info">
-                <p class="book-title"><a href="https://link-to-book2.com" target="_blank">Book Title 2</a></p>
-                <p class="book-category">Category: Non-Fiction</p>
-            </div>
-        </div>
-
-        <!-- Add more book items below -->
-    </div>
-
+        <p>© 2021-2024 LitEntrepreneur. All rights reserved.</p>
+    </footer>
 </body>
 </html>
