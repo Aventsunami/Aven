@@ -1,15 +1,40 @@
 body {
-  font-family: Arial, sans-serif; /* Sets the default font for the website */
-  margin: 20px; /* Adds some margin around the body content */
-  line-height: 1.5; /* Adjusts line spacing for better readability */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  text-align: center; /* Centers the website title */
-  font-size: 2em; /* Sets the font size of the heading to twice the default font size */
-  margin-bottom: 1em; /* Adds some space after the heading */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
-p {
-  font-size: 1em; /* Sets the font size for paragraphs */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+header h1 {
+  font-size: 36px;
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+ul li {
+  margin-bottom: 10px;
 }
