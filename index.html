@@ -7,36 +7,62 @@
     <title>Home Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #eef2f3;
+            color: #333;
         }
         header {
-            background-color: #f8f8f8;
-            padding: 20px;
+            background-color: #4A90E2;
+            color: white;
+            padding: 40px 20px;
             text-align: center;
+            border-bottom: 5px solid #3a7bd5;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         nav {
             margin: 20px 0;
             text-align: center;
         }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #333;
+            color: #4A90E2;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #3a7bd5;
         }
         section {
-            padding: 20px;
+            padding: 40px 20px;
+            text-align: center;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #f8f8f8;
+            background-color: #4A90E2;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
         .social-media a {
-            margin: 0 10px;
+            margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: white;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #3a7bd5;
         }
     </style>
 </head>
@@ -52,7 +78,8 @@
         </ul> 
     </nav>
     <section>
-        <!-- Additional content can go here -->
+        <h2>Welcome to My World</h2>
+        <p>Explore my projects and past work, and feel free to connect with me!</p>
     </section>
     <footer>
         <div class="social-media">
