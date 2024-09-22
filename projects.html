@@ -1,17 +1,90 @@
-<footer>
-    <div class="footer-content">
-        <p>© 2024 Aditya's Website. All rights reserved.</p>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-            </ul>
-        </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Log</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        .book-log {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .book-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .book-item:hover {
+            transform: scale(1.05);
+        }
+        .book-thumbnail img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .book-info {
+            padding: 15px;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .book-category {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+        .book-title a {
+            text-decoration: none;
+            color: #333;
+        }
+        .book-title a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Book Log</h1>
+    <div class="book-log">
+        <!-- Book Item 1 -->
+        <div class="book-item">
+            <div class="book-thumbnail">
+                <a href="https://link-to-book1.com" target="_blank">
+                    <img src="https://link-to-thumbnail1.com/image1.jpg" alt="Book 1">
+                </a>
+            </div>
+            <div class="book-info">
+                <p class="book-title"><a href="https://link-to-book1.com" target="_blank">Book Title 1</a></p>
+                <p class="book-category">Category: Fiction</p>
+            </div>
+        </div>
+
+        <!-- Book Item 2 -->
+        <div class="book-item">
+            <div class="book-thumbnail">
+                <a href="https://link-to-book2.com" target="_blank">
+                    <img src="https://link-to-thumbnail2.com/image2.jpg" alt="Book 2">
+                </a>
+            </div>
+            <div class="book-info">
+                <p class="book-title"><a href="https://link-to-book2.com" target="_blank">Book Title 2</a></p>
+                <p class="book-category">Category: Non-Fiction</p>
+            </div>
+        </div>
+
+        <!-- Add more book items below -->
     </div>
-    <div class="social-media">
-        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
-        <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
-        <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
-    </div>
-</footer>
+
+</body>
+</html>
