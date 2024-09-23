@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blog</title>
+    <title>Blog</title>
     <style>
         body {
-            font-family: Noto-sans, sans-serif;
+            font-family: 'Noto Sans', sans-serif;
             background-color: #20232a;
             color: #61dafb;
             margin: 0;
@@ -52,17 +52,22 @@
             text-align: center;
         }
 
-        .article h2 {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            }
         article h2 {
             color: #0073e6;
         }
+
         article p {
             line-height: 1.6;
+        }
 
+        .read-more {
+            color: #61dafb;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hidden {
+            display: none;
         }
 
         footer {
@@ -71,49 +76,57 @@
             text-align: center;
             padding: 10px;
         }
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1> </h1>
+        <h1>Blog</h1>
     </header>
 
     <div class="container">
         <article>
             <h2>The University System</h2>
             <p>Posted on January 1, 2024 by Aven</p>
-            <p> If you are self-aware enough to realize that you're sort of middle
-of the road and you're not good then sure go to university get your 
-stamp try not to be brainwashed...
-
-<span class="read-more" id="readmorebtn"> Read more </span>
- <p class="hidden"
-id="fullblog"> and use it to at least get your first job but
-if you're good if you're really good going to university is probably a 
-waste of your time unless you're trying to learn something very specific
-in a highly technical discipline that you could not learn on your own
-that's kind of the exception for really bright people. so if you need to learn
-aerospace engineering i'm likely going to do it on your own go to university
-if you're just trying to learn how to start a business and you're really good 
-go start a business. you don't need to go to university for that. so it is contextual but I would say that the arguement for highly intelligent and 
-capable people who do not need a credential and don't need training in a 
-very specific esoteric and technical discipline the arguement for those 
-people to university is going down and down with every passing year.
-the best piece of advice is to really just never outsource decision that really 
-affect your life to anyone else. it is always okay to take a gamble on yourself. it is always okay to feel a strong, strong in a certain direction and allow it, alllow it, have  it cause you to take the path least traveled. the idea of education is that there's information out there that is valuable to have. And that's worth having. but if you can get it on your own and you have a belief that you can go your own way and get it done. even if those people don't turn into some huge success, if you feel it and you go for it. follow your bliss and also bear in mind that you always should be learning. I strongly think that people need a education than what they get through high school. don't believe anyone think for yourself. if there's not money involved, it's harder to learn stuff. everyone should start a business because, you know, everyone's got to learn how to provide for themselves, maybe provide for other people, create value. I strongly think that people need a education than what they get through high school. just start a business, any business. go through the process. like. take money in, spend money out. it doesn't have to be big. you start filling your own taxes and stuff like that. 
-
-</p>
+            <p>
+                If you are self-aware enough to realize that you're sort of middle of the road and you're not good then sure go to university get your stamp try not to be brainwashed...
+                <span class="read-more" id="readMoreBtn">Read more</span>
+            </p>
+            <p class="hidden" id="fullBlog">
+                ...and use it to at least get your first job but if you're good, if you're really good, going to university is probably a waste of your time unless you're trying to learn something very specific in a highly technical discipline that you could not learn on your own. That's kind of the exception for really bright people. 
+                <br><br>
+                If you need to learn aerospace engineering, you're unlikely to do it on your own; go to university. If you're just trying to learn how to start a business and you're really good, go start a business. You don't need to go to university for that. The argument for highly intelligent and capable people who do not need a credential and don't need training in a very specific esoteric and technical discipline is weakening with every passing year. the best piece of advice is to really just never outsource decision that really affect your life to anyone else. it is always okay to take a gamble on yourself. it is always okay to feel a strong, strong in a certain direction and allow it, alllow it, have it cause you to take the path least traveled. the idea of education is that there's information out there that is valuable to have. And that's worth having. but if you can get it on your own and you have a belief that you can go your own way and get it done. even if those people don't turn into some huge success, if you feel it and you go for it. follow your bliss and also bear in mind that you always should be learning. I strongly think that people need a education than what they get through high school. don't believe anyone think for yourself. if there's not money involved, it's harder to learn stuff. everyone should start a business because, you know, everyone's got to learn how to provide for themselves, maybe provide for other people, create value. I strongly think that people need a education than what they get through high school. just start a business, any business. go through the process. like. take money in, spend money out. it doesn't have to be big. you start filling your own taxes and stuff like that.
+            </p>
         </article>
         <nav>
-        <a href="index.html">Home</a>
-        
-    </nav>
+            <a href="index.html">Home</a>
+        </nav>
     </div>
-    
+
     <footer>
-        
+        <p>&copy; 2024 Litentrepreneur.in</p>
     </footer>
+
+    <script>
+        document.getElementById("readMoreBtn").addEventListener("click", function() {
+            var fullBlog = document.getElementById("fullBlog");
+            if (fullBlog.classList.contains("hidden")) {
+                fullBlog.classList.remove("hidden");
+                this.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
+
+Key Changes:
+
+1. Structure Fixes: Closed open tags and corrected the use of <p> and <span>.
+
+
+2. "Read more" Feature: The "Read more" button is now functional, and clicking it will reveal the hidden blog text.
+
+
+3. Styling Tweaks: Adjusted styling for better readability and layout.
+
+
 
