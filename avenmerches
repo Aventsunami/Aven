@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Average merch website e</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1DB954;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #282828;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 14px;
+            color: #b3b3b3;
+        }
+        .btn {
+            background-color: #1DB954;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #17a74b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> Aven merches </h1>
+</header>
+
+<section class=" buy cars for cheap at our store (please buy something!)">
+    <div class=" LINCON">
+        <img src="product1.jpg" alt="CAR #1">
+        <h2> FREE </h2>
+        <p> I just like my car </p>
+        <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="OD">
+        <img src="product2.jpg" alt=" OD">
+        <h2>Spotify Family</h2>
+        <p>Premium for up to 6 family members.</p>
+        <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="LAMBROGINI FALLARDO ">
+        <img src="product3.jpg" alt=" BULL ICON">
+        <h2>Spotify Duo</h2>
+        <p>Premium for two people living together.</p>
+        <a href="#" class="btn">Buy Now</a>
+    </div>
+
+    <div class="FERRARI">
+        <img src="product4.jpg" alt="FERRARI KI PHOTO">
+        <h2>Spotify Student</h2>
+        <p TERI AUKAAT SE BAHAR HE </p>
+        <a href="#" class="btn">Buy Now</a>
+    </div>
+</section>
+
+</body>
+</html>
