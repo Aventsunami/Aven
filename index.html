@@ -31,6 +31,12 @@
             font-size: 100px;
             margin-bottom: 20px;
         }
+
+        .secret-link {
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -39,9 +45,15 @@
         <div class="emoji">😕</div>
         <h1>This page isn’t working</h1>
         <p>We’re sorry, but something went wrong.<br>
-           Try refreshing the page or come back later.</p>
+           Try refreshing <span class="secret-link" onclick="redirect()">this</span> page or come back later.</p>
         <p>Error code: 500</p>
     </div>
+
+    <script>
+        function redirect() {
+            window.location.href = "index2.html";
+        }
+    </script>
 
 </body>
 </html>
